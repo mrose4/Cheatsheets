@@ -1,0 +1,37 @@
+echo is for repeating or writing things
+cat is for reading text files
+pwd = printing working directory. It tells you which directory you are working in 
+cd = change directory. It changes the directory (folder) to a folder within the current working directory
+cd .. = goes back a directory (this is how you can go to a directory that is outside of the current working directory)
+cd~ = go to home directory
+up arrow resues previous command
+touch = see or create a file
+code [filename.type] makes a file and opens it in VS code
+
+mkdir = makes a directory (folder)
+$ = command line prompt
+ls = list contents of the current working directory
+wc = word count--but dont type this without anything becasue your terminal will crash
+# whenever your terminal crashes (e.g. you no longer see a dollar sign) you can type control c
+To use wc:
+    You can type characters and then have it count it--have to use a | (pipe) here
+    e.g. echo "Hello from the command line" | wc -wc
+        this counts the number of the words
+    e.g cat cheatsheet.txt | wc -w
+    You can also use another command (-l) to count lines
+    e.g. cat cheatsheet.txt | wc -l
+>  to create new files    
+e.g. cat cheatsheet.txt | sort > sorted.txt
+the above command would first created a sorted text and then make a new version of it 
+mv (moving files from one directory to another directory)
+    make sure you are in the directory where the file is currently
+    then type:
+        mv nypl_items.csv ~/Desktop/projects/
+q = quit
+cd ~ takes you back home
+
+GIT and GITHUB
+
+git add
+git commit
+git push 
